@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723A4E9E287678FE0009AC16 /* USGS_LastMonthsEarthQuakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A4E9D287678FE0009AC16 /* USGS_LastMonthsEarthQuakesApp.swift */; };
+		723A4EA0287678FE0009AC16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A4E9F287678FE0009AC16 /* ContentView.swift */; };
+		723A4EA2287678FF0009AC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723A4EA1287678FF0009AC16 /* Assets.xcassets */; };
+		723A4EA5287678FF0009AC16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723A4EA4287678FF0009AC16 /* Preview Assets.xcassets */; };
+		723A4EAC287679A30009AC16 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A4EAB287679A30009AC16 /* QuakeError.swift */; };
+		723A4EAF287679DC0009AC16 /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A4EAD287679DC0009AC16 /* QuakesProvider.swift */; };
+		723A4EB0287679DC0009AC16 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A4EAE287679DC0009AC16 /* GeoJSON.swift */; };
+		723A4EB528767FAA0009AC16 /* Configuration in Resources */ = {isa = PBXBuildFile; fileRef = 723A4EB428767FAA0009AC16 /* Configuration */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		723A4E9A287678FE0009AC16 /* USGS_LastMonthsEarthQuakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USGS_LastMonthsEarthQuakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723A4E9D287678FE0009AC16 /* USGS_LastMonthsEarthQuakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USGS_LastMonthsEarthQuakesApp.swift; sourceTree = "<group>"; };
+		723A4E9F287678FE0009AC16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		723A4EA1287678FF0009AC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723A4EA4287678FF0009AC16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		723A4EAB287679A30009AC16 /* QuakeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
+		723A4EAD287679DC0009AC16 /* QuakesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
+		723A4EAE287679DC0009AC16 /* GeoJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
+		723A4EB128767ABA0009AC16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		723A4EB428767FAA0009AC16 /* Configuration */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Configuration; sourceTree = "<group>"; };
+		723A4EBB2876A6480009AC16 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		723A4EBC2876A6480009AC16 /* ACKNOWLEDGEMENTS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ACKNOWLEDGEMENTS.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723A4E97287678FE0009AC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		723A4E91287678FE0009AC16 = {
+			isa = PBXGroup;
+			children = (
+				723A4EB128767ABA0009AC16 /* README.md */,
+				723A4E9C287678FE0009AC16 /* USGS_LastMonthsEarthQuakes */,
+				723A4E9B287678FE0009AC16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		723A4E9B287678FE0009AC16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723A4E9A287678FE0009AC16 /* USGS_LastMonthsEarthQuakes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723A4E9C287678FE0009AC16 /* USGS_LastMonthsEarthQuakes */ = {
+			isa = PBXGroup;
+			children = (
+				723A4EAE287679DC0009AC16 /* GeoJSON.swift */,
+				723A4EAD287679DC0009AC16 /* QuakesProvider.swift */,
+				723A4EAB287679A30009AC16 /* QuakeError.swift */,
+				723A4E9D287678FE0009AC16 /* USGS_LastMonthsEarthQuakesApp.swift */,
+				723A4E9F287678FE0009AC16 /* ContentView.swift */,
+				723A4EA1287678FF0009AC16 /* Assets.xcassets */,
+				723A4EB428767FAA0009AC16 /* Configuration */,
+				723A4EBA2876A6480009AC16 /* Licence */,
+				723A4EA3287678FF0009AC16 /* Preview Content */,
+			);
+			path = USGS_LastMonthsEarthQuakes;
+			sourceTree = "<group>";
+		};
+		723A4EA3287678FF0009AC16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				723A4EA4287678FF0009AC16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		723A4EBA2876A6480009AC16 /* Licence */ = {
+			isa = PBXGroup;
+			children = (
+				723A4EBB2876A6480009AC16 /* LICENSE */,
+				723A4EBC2876A6480009AC16 /* ACKNOWLEDGEMENTS.txt */,
+			);
+			path = Licence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723A4E99287678FE0009AC16 /* USGS_LastMonthsEarthQuakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723A4EA8287678FF0009AC16 /* Build configuration list for PBXNativeTarget "USGS_LastMonthsEarthQuakes" */;
+			buildPhases = (
+				723A4E96287678FE0009AC16 /* Sources */,
+				723A4E97287678FE0009AC16 /* Frameworks */,
+				723A4E98287678FE0009AC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USGS_LastMonthsEarthQuakes;
+			productName = USGS_LastMonthsEarthQuakes;
+			productReference = 723A4E9A287678FE0009AC16 /* USGS_LastMonthsEarthQuakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723A4E92287678FE0009AC16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					723A4E99287678FE0009AC16 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 723A4E95287678FE0009AC16 /* Build configuration list for PBXProject "USGS_LastMonthsEarthQuakes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723A4E91287678FE0009AC16;
+			productRefGroup = 723A4E9B287678FE0009AC16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723A4E99287678FE0009AC16 /* USGS_LastMonthsEarthQuakes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723A4E98287678FE0009AC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723A4EA5287678FF0009AC16 /* Preview Assets.xcassets in Resources */,
+				723A4EB528767FAA0009AC16 /* Configuration in Resources */,
+				723A4EA2287678FF0009AC16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723A4E96287678FE0009AC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723A4EB0287679DC0009AC16 /* GeoJSON.swift in Sources */,
+				723A4EAF287679DC0009AC16 /* QuakesProvider.swift in Sources */,
+				723A4EA0287678FE0009AC16 /* ContentView.swift in Sources */,
+				723A4EAC287679A30009AC16 /* QuakeError.swift in Sources */,
+				723A4E9E287678FE0009AC16 /* USGS_LastMonthsEarthQuakesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		723A4EA6287678FF0009AC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		723A4EA7287678FF0009AC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		723A4EA9287678FF0009AC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"USGS_LastMonthsEarthQuakes/Preview Content\"";
+				DEVELOPMENT_TEAM = T5RDMAD9Q4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.performiq.USGS-LastMonthsEarthQuakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		723A4EAA287678FF0009AC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"USGS_LastMonthsEarthQuakes/Preview Content\"";
+				DEVELOPMENT_TEAM = T5RDMAD9Q4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.performiq.USGS-LastMonthsEarthQuakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723A4E95287678FE0009AC16 /* Build configuration list for PBXProject "USGS_LastMonthsEarthQuakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723A4EA6287678FF0009AC16 /* Debug */,
+				723A4EA7287678FF0009AC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723A4EA8287678FF0009AC16 /* Build configuration list for PBXNativeTarget "USGS_LastMonthsEarthQuakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723A4EA9287678FF0009AC16 /* Debug */,
+				723A4EAA287678FF0009AC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723A4E92287678FE0009AC16 /* Project object */;
+}
